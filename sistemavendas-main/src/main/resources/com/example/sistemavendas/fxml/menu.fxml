@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="231.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Text>
+      <Text layoutX="191.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Menu principal" wrappingWidth="217.65234375">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e8ebee" height="96.0" layoutX="14.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="96.0" />
+      <ImageView fitHeight="63.0" fitWidth="80.0" layoutX="31.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/usuario.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="31.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="cadastro de usuario" wrappingWidth="63.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eff2f5" height="96.0" layoutX="170.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="96.0" />
+      <ImageView fitHeight="63.0" fitWidth="72.0" layoutX="187.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/produto.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="194.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="cadastro produtos" wrappingWidth="49.7734375" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eff5fc" height="96.0" layoutX="335.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="96.0" />
+      <ImageView fitHeight="63.0" fitWidth="54.0" layoutX="356.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/1389181.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="359.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="nova venda" wrappingWidth="71.94921875" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e5edf5" height="96.0" layoutX="490.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" width="96.0" />
+      <ImageView fitHeight="63.0" fitWidth="63.0" layoutX="507.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/relatorios.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="514.0" layoutY="178.0" strokeType="OUTSIDE" strokeWidth="0.0" text="relatorios" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ecedee" height="78.0" layoutX="252.0" layoutY="290.0" stroke="BLACK" strokeType="INSIDE" width="96.0" />
+      <ImageView fitHeight="54.0" fitWidth="54.0" layoutX="273.0" layoutY="296.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/sair.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="289.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="sair" />
+   </children>
+</AnchorPane>

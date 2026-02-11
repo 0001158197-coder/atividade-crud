@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROLLER_NAME">
+   <children>
+      <ImageView fitHeight="206.0" fitWidth="303.0" layoutX="297.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imagens/cadastro%20clientes.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="59.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cadastro de clientes" wrappingWidth="359.13671875">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text layoutX="70.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <TextField layoutX="59.0" layoutY="102.0" />
+      <Label layoutX="14.0" layoutY="106.0" text="Nome:" />
+      <Label layoutX="21.0" layoutY="153.0" text="CPF:" />
+      <TextField layoutX="59.0" layoutY="149.0" />
+      <Label layoutX="1.0" layoutY="200.0" text="Telefone:" />
+      <TextField layoutX="59.0" layoutY="196.0" />
+      <TextField layoutX="59.0" layoutY="245.0" />
+      <Label layoutX="12.0" layoutY="249.0" text="E-MAIL:" />
+      <TextField layoutX="59.0" layoutY="295.0" />
+      <Label layoutX="6.0" layoutY="299.0" text="Endereço:" />
+   </children>
+</AnchorPane>

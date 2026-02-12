@@ -28,8 +28,9 @@ public class Maincontroller {
 
     @FXML
     public void abrirClientes() {
-        carregarTela("Clientes.fxml");
+        carregarTela("clientes.fxml");
     }
+
     @FXML
     public void abrirAjuda(ActionEvent event) {
 
@@ -39,7 +40,7 @@ public class Maincontroller {
         alert.setContentText(
                 "Nome: Sistema de Reservas\n" +
                         "Versão: 1.0.0\n" +
-                        "Desenvolvedor: Marcel Philippe\n" +
+                        "Desenvolvedor: joao victor\n" +
                         "Ano: 2026"
         );
         alert.showAndWait();
